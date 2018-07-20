@@ -1,0 +1,12 @@
+##### Starts the containers
+```docker-compose up -d```
+##### Stop the containers (without remove them)
+```docker-compose stop```
+##### Stop the containers (remove them)
+```docker-compose down```
+##### Show running containers
+```docker-compose ps```
+##### Build image
+docker-compose build
+##### Build image force rebuild
+docker-compose build --no-cache
