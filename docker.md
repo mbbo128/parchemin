@@ -7,6 +7,6 @@
 ##### Show running containers
 ```docker-compose ps```
 ##### Build image
-docker-compose build
+```docker-compose build```
 ##### Build image force rebuild
-docker-compose build --no-cache
+```docker-compose build --no-cache```
