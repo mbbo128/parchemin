@@ -1,8 +1,8 @@
 ##### Starts the containers
-```docker-compose up -d```
-```docker-compose up -d --force-recreate```
-```docker-compose up -d --force-recreate --remove-orphans```
-```docker-compose  up -d --build --force-recreate --remove-orphans```
+- ```docker-compose up -d```
+- ```docker-compose up -d --force-recreate```
+- ```docker-compose up -d --force-recreate --remove-orphans```
+- ```docker-compose  up -d --build --force-recreate --remove-orphans```
 
 ##### Stop the containers (without remove them)
 ```docker-compose stop```
