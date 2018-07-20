@@ -1,0 +1,25 @@
+{
+  "name": "parchemin",
+  "version": "1.0.0",
+  "description": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .json --ext .md",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbbo/parchemin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbbo/parchemin/issues"
+  },
+  "homepage": "https://github.com/mbbo/parchemin#readme",
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-markdown": "^1.0.0-beta.6"
+  }
+}
