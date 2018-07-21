@@ -23,5 +23,9 @@
             "error",
             "always"
         ]
-    }
+    },
+    "plugins": [
+        "json",
+        "markdown"
+    ]
 }
