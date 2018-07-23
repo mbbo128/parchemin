@@ -29,3 +29,6 @@ docker-compose stop nginx
 
 ##### 5
 docker-compose logs nginx
+
+##### 6
+docker-compose down
