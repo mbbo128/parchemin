@@ -15,7 +15,17 @@
 ##### Build image force rebuild
 ```docker-compose build --no-cache```
 
+##### 1
 docker-compose exec nginx bash
+
+##### 2
 docker-compose build nginx
+
+##### 3
 docker-compose restart nginx
+
+##### 4
 docker-compose stop nginx
+
+##### 5
+docker-compose logs nginx
