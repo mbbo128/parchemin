@@ -18,3 +18,4 @@
 docker-compose exec nginx bash
 docker-compose build nginx
 docker-compose restart nginx
+docker-compose stop nginx
