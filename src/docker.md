@@ -16,3 +16,5 @@
 ```docker-compose build --no-cache```
 
 docker-compose exec nginx bash
+docker-compose build nginx
+docker-compose restart nginx
