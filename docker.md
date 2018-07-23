@@ -3,7 +3,6 @@
 - ```docker-compose up -d --force-recreate```
 - ```docker-compose up -d --force-recreate --remove-orphans```
 - ```docker-compose  up -d --build --force-recreate --remove-orphans```
-
 ##### Stop the containers (without remove them)
 ```docker-compose stop```
 ##### Stop the containers (remove them)
@@ -14,21 +13,15 @@
 ```docker-compose build```
 ##### Build image force rebuild
 ```docker-compose build --no-cache```
-
-##### 1
+##### Run commands inside "nginx" container
 ```docker-compose exec nginx bash```
-
-##### 2
+##### Rebuild container "nginx"
 ```docker-compose build nginx```
-
-##### 3
+##### Restart container "nginx"
 ```docker-compose restart nginx```
-
-##### 4
+##### Stop container "nginx"
 ```docker-compose stop nginx```
-
-##### 5
+##### See logs "nginx"
 ```docker-compose logs nginx```
-
-##### 6
+##### Clean everyting
 ```docker-compose down```
