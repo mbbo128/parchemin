@@ -14,3 +14,4 @@ ssh-add ~/.ssh/id_rsa
 git config --global user.name "Mona Lisa"
 git config --global user.email "your.email@example.com"
 ```
+#### Alias
