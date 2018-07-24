@@ -5,6 +5,9 @@ Execute this command if you only modify docker-compose.yml
 - ```docker-compose up -d --force-recreate```
 - ```docker-compose up -d --force-recreate --remove-orphans```
 - ```docker-compose  up -d --build --force-recreate --remove-orphans```
+##### Build image force rebuild
+Execute this commande if you modify Dockerfile
+- ```docker-compose build --no-cache```
 ##### Stop the containers (without remove them)
 ```docker-compose stop```
 ##### Stop the containers (remove them)
@@ -13,9 +16,6 @@ Execute this command if you only modify docker-compose.yml
 ```docker-compose ps```
 ##### Build image
 ```docker-compose build```
-##### Build image force rebuild
-Execute this commande if you modify Dockerfile
-```docker-compose build --no-cache```
 ##### Run commands inside "nginx" container
 ```docker-compose exec nginx bash```
 ##### Rebuild container "nginx"
