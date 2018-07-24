@@ -1,5 +1,6 @@
-##### Starts the containers
+##### Builds the images if the images do not exist and starts the containers
 - ```docker-compose up -d```
+##### Others
 - ```docker-compose up -d --force-recreate```
 - ```docker-compose up -d --force-recreate --remove-orphans```
 - ```docker-compose  up -d --build --force-recreate --remove-orphans```
@@ -25,3 +26,4 @@
 ```docker-compose logs nginx```
 ##### Clean everyting
 ```docker-compose down```
+
