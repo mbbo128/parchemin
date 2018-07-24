@@ -9,3 +9,4 @@ ssh-add ~/.ssh/id_rsa
 ##### Copy the ssh key into your Github/Lab account
 ```cat ~/.ssh/id_rsa.pub```
 #### Global config 
+##### Don't forget to put your real name and email 
