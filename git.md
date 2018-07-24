@@ -6,3 +6,4 @@
 eval $(ssh-agent -s)
 ssh-add ~/.ssh/id_rsa
 ```
+##### Copy the ssh key into your Github/Lab account
