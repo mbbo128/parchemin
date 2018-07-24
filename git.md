@@ -10,3 +10,7 @@ ssh-add ~/.ssh/id_rsa
 ```cat ~/.ssh/id_rsa.pub```
 #### Global config 
 ##### Don't forget to put your real name and email 
+```
+git config --global user.name "Mona Lisa"
+git config --global user.email "your.email@example.com"
+```
