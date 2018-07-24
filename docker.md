@@ -26,6 +26,3 @@ Execute this commande if you modify Dockerfile
 ```docker-compose stop nginx```
 ##### See logs "nginx"
 ```docker-compose logs nginx```
-##### Clean everyting
-```docker-compose down```
-
