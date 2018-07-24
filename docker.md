@@ -16,6 +16,8 @@ Execute this commande if you modify Dockerfile
 ```docker-compose ps```
 ##### Build image
 ```docker-compose build```
+
+#### Nginx image
 ##### Run commands inside "nginx" container
 ```docker-compose exec nginx bash```
 ##### Rebuild container "nginx"
@@ -26,3 +28,5 @@ Execute this commande if you modify Dockerfile
 ```docker-compose stop nginx```
 ##### See logs "nginx"
 ```docker-compose logs nginx```
+##### Ask API for nginx image
+```docker inspect nginx```
