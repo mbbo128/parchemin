@@ -1,4 +1,5 @@
 ##### Builds the images if the images do not exist and starts the containers
+Execute this command if you only modify docker-compose.yml
 - ```docker-compose up -d```
 ##### Others
 - ```docker-compose up -d --force-recreate```
@@ -13,6 +14,7 @@
 ##### Build image
 ```docker-compose build```
 ##### Build image force rebuild
+Execute this commande if you modify Dockerfile
 ```docker-compose build --no-cache```
 ##### Run commands inside "nginx" container
 ```docker-compose exec nginx bash```
