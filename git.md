@@ -24,3 +24,5 @@ git config --global user.email "your.email@example.com"
 #### Branch
 ##### Delete local branch
 ```git branch -d the_local_branch```
+##### List local branch
+```git branch```
