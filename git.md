@@ -20,3 +20,7 @@ git config --global user.email "your.email@example.com"
 - git config --global alias.ci commit 
 - git config --global alias.st status 
 - git config --global alias.ps push 
+
+#### Branch
+##### Delete local branch
+```git branch -d the_local_branch```
