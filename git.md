@@ -26,3 +26,9 @@ git config --global user.email "your.email@example.com"
 ```git branch -d the_local_branch```
 ##### List local branch
 ```git branch```
+#### gitignore
+##### if files are not ignore
+```
+git rm --cached -r .
+git add .
+```
