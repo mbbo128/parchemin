@@ -35,7 +35,9 @@ git push origin master
 #### Stash
 ##### List 
 ```git stash list```
-#### gitignore
+##### Save stash with a name
+```git stash save "My Message"```
+#### Gitignore
 ##### if files are not ignore
 ```
 git rm --cached -r .
