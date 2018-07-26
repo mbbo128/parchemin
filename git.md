@@ -41,6 +41,8 @@ git push origin master
 ```git stash pop```
 ##### Apply stash n
 ```git stash apply stash@{n}```
+##### See detail stash n
+```git stash show stash@{n} -p```
 #### Gitignore
 ##### if files are not ignore
 ```
