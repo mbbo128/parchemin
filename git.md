@@ -37,6 +37,8 @@ git push origin master
 ```git stash list```
 ##### Save stash with a name
 ```git stash save "My Message"```
+##### Apply and Drop first stash
+```git stash pop```
 #### Gitignore
 ##### if files are not ignore
 ```
