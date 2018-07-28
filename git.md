@@ -49,3 +49,6 @@ git push origin master
 git rm --cached -r .
 git add .
 ```
+#### Commit
+##### Change commit message
+``git commit --amend```
