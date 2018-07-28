@@ -51,4 +51,4 @@ git add .
 ```
 #### Commit
 ##### Change commit message
-``git commit --amend```
+```git commit --amend```
