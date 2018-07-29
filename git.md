@@ -52,5 +52,7 @@ git add .
 #### Commit
 ##### Change commit message
 ```git commit --amend```
+##### Undo the last commit (leave the changes available)
+```git reset HEAD~ --soft```
 ##### Undo the last commit (remove changes)
 ```git reset HEAD~ --hard```
