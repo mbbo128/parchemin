@@ -56,3 +56,10 @@ git add .
 ```git reset HEAD~ --soft```
 ##### Undo the last commit (remove changes)
 ```git reset HEAD~ --hard```
+#### Rebase master in feature/X
+- git checkout feature/X
+- git fetch --all
+- git rebase origine/master
+- fix conflits in PHPStorm (Local Changes -> Right Click -> Git -> Resolve Conflit)
+- git rebase --continue
+- git push -f origin feature/X (You need to force push)
