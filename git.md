@@ -62,4 +62,4 @@ git add .
 - git rebase origine/master
 - fix conflits in PHPStorm (Local Changes -> Right Click -> Git -> Resolve Conflit)
 - git rebase --continue
-- git push -f origin feature/X (You need to force push)
+- git push -f origin feature/X
