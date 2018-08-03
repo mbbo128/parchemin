@@ -1,8 +1,8 @@
-##### mode
+##### Mode
 
 insert mode : i
 
-##### navigation
+##### Navigation
 
 - left : h 
 - right : l 
