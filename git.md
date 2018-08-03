@@ -63,3 +63,6 @@ git add .
 - fix conflits in PHPStorm (Local Changes -> Right Click -> Git -> Resolve Conflit)
 - git rebase --continue
 - git push -f origin feature/X
+#### Release
+- git checkout master
+- git checkout -b release/X
