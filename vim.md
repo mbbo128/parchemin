@@ -8,3 +8,6 @@ insert mode : i
 - right : l 
 - top : k 
 - bottom : j
+
+- word by word : w
+- worf by word back : b
