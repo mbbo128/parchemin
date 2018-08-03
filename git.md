@@ -64,8 +64,7 @@ git add .
 - git rebase --continue
 - git push -f origin feature/X
 #### Release
-- git checkout master
-- git checkout -b release/X
+- git checkout release/X
 - git merge --no-ff feature/A
 - git merge --no-ff feature/B
 - git push origin release/X
