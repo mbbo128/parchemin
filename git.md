@@ -68,3 +68,4 @@ git add .
 - git checkout -b release/X
 - git merge --no-ff feature/A
 - git merge --no-ff feature/B
+- git push origin release/X
