@@ -10,4 +10,4 @@ insert mode : i
 - bottom : j
 
 - word by word : w
-- worf by word back : b
+- word by word back : b
