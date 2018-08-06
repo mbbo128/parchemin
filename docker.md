@@ -30,3 +30,5 @@ Execute this commande if you modify Dockerfile
 ```docker-compose logs nginx```
 ##### Ask API for nginx image
 ```docker inspect nginx```
+##### Remove image
+```docker rmi```
