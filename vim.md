@@ -14,3 +14,4 @@ insert mode : i
 - back to beginning : ^ 
 - go to the end : $
 - undu : u 
+- redo : Ctrl + r
