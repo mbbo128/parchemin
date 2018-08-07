@@ -12,4 +12,5 @@ insert mode : i
 - word by word : w
 - word by word back : b
 - end of a word no space : e
-- back to beginning: ^ 
+- back to beginning : ^ 
+- go to the end : $
