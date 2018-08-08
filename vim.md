@@ -15,3 +15,4 @@ insert mode : i
 - go to the end : $
 - undu : u 
 - redo : Ctrl + r
+- delete right : x
