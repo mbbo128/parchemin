@@ -16,3 +16,4 @@ insert mode : i
 - undu : u 
 - redo : Ctrl + r
 - delete right : x
+- delete left : X
