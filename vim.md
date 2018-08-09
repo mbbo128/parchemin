@@ -17,3 +17,4 @@ insert mode : i
 - redo : Ctrl + r
 - delete right : x
 - delete left : X
+- go to the end of a parenthesis:%
