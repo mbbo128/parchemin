@@ -18,3 +18,4 @@ insert mode : i
 - delete right : x
 - delete left : X
 - go to the end of a parenthesis:%
+- delete all line : D or dd
