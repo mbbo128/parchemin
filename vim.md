@@ -21,3 +21,4 @@ insert mode : i
 - delete all line : D or dd
 - go to paragraph above : + 
 - got to paragraph under : -
+- cut : dd 
