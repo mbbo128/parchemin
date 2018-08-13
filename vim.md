@@ -23,3 +23,4 @@ insert mode : i
 - got to paragraph under : -
 - cut : dd 
 - paste : p 
+- paste before cursor : P
