@@ -19,3 +19,5 @@ insert mode : i
 - delete left : X
 - go to the end of a parenthesis:%
 - delete all line : D or dd
+- go to paragraph above : + 
+- got to paragraph under : -
