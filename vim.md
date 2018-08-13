@@ -22,3 +22,4 @@ insert mode : i
 - go to paragraph above : + 
 - got to paragraph under : -
 - cut : dd 
+- paste : p 
