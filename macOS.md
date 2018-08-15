@@ -1,4 +1,4 @@
-##### Chrome shortcut
+##### Chrome Shortcut
  
 - cmd + t : open 
 - cmd + shift + t : restore
