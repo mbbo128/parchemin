@@ -11,3 +11,4 @@
 - PHPStorm
 - Docker
 - Oh My Zsh
+- Tig for git
