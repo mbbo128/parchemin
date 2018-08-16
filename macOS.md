@@ -10,3 +10,4 @@
 - Spectacle
 - PHPStorm
 - Docker
+- Oh My Zsh
