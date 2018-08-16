@@ -5,3 +5,6 @@
 - cmd + w : close 
 - cmd + n : new
 - cmd + shift + n : new private 
+
+##### List of software to install
+- Spectacle
