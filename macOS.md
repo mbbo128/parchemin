@@ -8,3 +8,4 @@
 
 ##### List of software to install
 - Spectacle
+- PHPStorm
