@@ -1,5 +1,5 @@
-##### Blabla 1
-Execute this command if you only modify docker-compose.yml
-- ```blabla 1```
-##### Blabla 2
-- ```blablab 2```
+##### INstall pecl
+- https://jason.pureconcepts.net/2012/10/install-pear-pecl-mac-os-x/
+
+##### Install Xdebug On Mac
+- brew install pecl
