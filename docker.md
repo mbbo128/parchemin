@@ -7,6 +7,7 @@ Execute this command if you only modify docker-compose.yml
 - ```docker-compose  up -d --build --force-recreate --remove-orphans```
 ##### Build image force rebuild
 Execute this commande if you modify Dockerfile
+Build will put the image inside docker local registery 
 - ```docker-compose build --no-cache```
 ##### Stop the containers (without remove them)
 ```docker-compose stop```
