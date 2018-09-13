@@ -1,3 +1,6 @@
+##### See if there is any images inside registry
+- ```docker images```
+
 ##### Builds the images if the images do not exist and starts the containers
 Execute this command if you only modify docker-compose.yml
 - ```docker-compose up -d```
