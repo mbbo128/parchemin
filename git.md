@@ -65,10 +65,10 @@ git add .
 - git checkout feature/X
 - git fetch --all
 - git rebase origine/master
-- Only if there are conflits -------------
+- ------------- Only if there are conflits -------------
 - fix conflits in PHPStorm (Local Changes -> Right Click -> Git -> Resolve Conflit)
 - git rebase --continue
-- Only if there are conflits -------------
+- ------------- Only if there are conflits -------------
 - git push -f origin feature/X
 #### Squash Commit
 ##### blablbla
