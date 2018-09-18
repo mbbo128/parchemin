@@ -68,7 +68,7 @@ git add .
 - ------------- Only if there are conflits -------------
 - fix conflits in PHPStorm (Local Changes -> Right Click -> Git -> Resolve Conflit)
 - git rebase --continue
-- ------------- Only if there are conflits -------------
+- ------------------------------------------------------
 - git push -f origin feature/X
 #### Squash Commit
 ##### blablbla
