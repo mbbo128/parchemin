@@ -5,6 +5,7 @@
 - cmd + w : close 
 - cmd + n : new
 - cmd + shift + n : new private 
+- cmd + alt + u : view source code
 
 ##### List of software to install
 - Spectacle
