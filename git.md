@@ -70,5 +70,8 @@ git add .
 - git rebase --continue
 - ------------- Only if there are conflits -------------
 - git push -f origin feature/X
+#### Remove local untracked files 
+##### Show what will be deleted
+```git clean -n```
 #### Squash Commit
 ##### blablbla
