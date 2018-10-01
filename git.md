@@ -73,7 +73,7 @@ git add .
 #### Remove local untracked files 
 ##### Show what will be deleted
 ```git clean -n```
-##### Show what will be deleted
+##### Delete them
 ```git clean -f```
 #### Squash Commit
 ##### blablbla
