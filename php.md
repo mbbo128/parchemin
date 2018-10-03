@@ -1,3 +1,3 @@
 ##### Functionnal test
  
-- php vendor/bin/behat  <linktotest>
+- php vendor/bin/behat  PATHTOTEST
