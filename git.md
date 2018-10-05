@@ -78,4 +78,9 @@ git add .
 ##### Delete file
 ```git clean -f```
 #### Squash Commit
-##### blablbla
+##### See log
+```git log```
+- Commit 1
+- Commit 2
+- Commit 3 
+- Master Tag (choose this hash)
