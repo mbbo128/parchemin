@@ -89,7 +89,7 @@ git add .
 - pick commit I
 - s commit II
 - s commit III
-```Save and leave :x```
+- Save and leave :x
 ##### Finish
 git push -f origin feature/X
 ##### Edit squash
