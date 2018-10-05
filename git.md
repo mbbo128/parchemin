@@ -84,3 +84,5 @@ git add .
 - Commit 2
 - Commit 3 
 - Master Tag (choose this hash)
+##### Rebase
+```git rebase -i HASH```
