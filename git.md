@@ -89,3 +89,5 @@ git add .
 - pick commit I
 - s commit II
 - s commit III
+
+Save and leave :x
