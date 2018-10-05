@@ -86,3 +86,6 @@ git add .
 - Master Tag (choose this hash)
 ##### Rebase
 ```git rebase -i HASH```
+- pick commit 1
+- s commit 2
+- s commit 3
