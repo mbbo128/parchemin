@@ -13,6 +13,7 @@
 - Docker
 - Oh My Zsh
 - Tig for git
+- twgit
 
 ##### Terminal Shortcut
 - ctrl + a : go to begin line
