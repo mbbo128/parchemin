@@ -32,11 +32,6 @@ git config --global user.email "your.email@example.com"
 git branch -m master
 git push origin master
 ```
-#### Release
-- git checkout release/X
-- git merge --no-ff feature/A
-- git merge --no-ff feature/B
-- git push origin release/X
 #### Stash
 ##### List 
 ```git stash list```
