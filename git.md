@@ -75,15 +75,15 @@ git add .
 #### Squash Commit
 ##### See log
 ```git log```
-- Commit I
-- Commit II
-- Commit III
+- Commit 1
+- Commit 2
+- Commit 3
 - Master Tag (choose this hash)
 ##### Rebase
 ```git rebase -i HASH```
-- pick commit I
-- s commit II
-- s commit III
+- pick commit 1
+- s commit 2
+- s commit 3
 - Save and leave :x
 ##### Finish
 git push -f origin feature/X
