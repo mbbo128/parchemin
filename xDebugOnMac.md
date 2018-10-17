@@ -19,14 +19,17 @@ xdebug.remote_log="/Users/m.boissa/Log/xdebug.log"
 
 ##### Configure your PHPStorm
 
-Preferences -> Languages and Frameworks -> PHP -> Debug
+##### Preferences -> Languages and Frameworks -> PHP -> Debug
 
 Set Xdebug port to 9002
 
-Preferences -> Languages and Frameworks -> PHP -> Servers
+##### Preferences -> Languages and Frameworks -> PHP -> Servers
 
 Add a server :
 
 name : 127.0.0.1
 host : 127.0.0.1
 port : 8000
+
+##### Run -> Edit Configurations
+
