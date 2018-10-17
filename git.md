@@ -91,4 +91,3 @@ git push -f origin feature/X
 ```git rebase --edit-todo```
 ##### Cancel squash
 git rebase --abort
-#### Workflow
