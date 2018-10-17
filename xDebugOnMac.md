@@ -31,5 +31,9 @@ name : 127.0.0.1
 host : 127.0.0.1
 port : 8000
 
-##### Run -> Edit Configurations
+##### Run -> Edit Configurations -> PHP Built-in Web Server
+
+Host : http://localhost
+Port: 8000
+Document root : /Users/m.boissa/Documents/fac/web
 
