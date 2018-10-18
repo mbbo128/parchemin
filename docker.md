@@ -40,3 +40,5 @@ Build will put the image inside docker local registery / You need to execute thi
 ```docker rmi```
 ##### Container list
 ```docker ps -a```
+##### Delete all containre
+```docker system prune```
