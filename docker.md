@@ -2,6 +2,8 @@
 
 Docker is a container engine and docker-compose pilote the docker. Docker-compose pilote the docker with a yml file.
 
+#### List of commands
+
 ##### See if there is any images inside registry
 - ```docker images```
 
