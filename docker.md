@@ -1,10 +1,6 @@
 #### What is the difference docker and docker-compose ?
 
-```docker-compose pilote the docker with a yml file, docker compose only work with a docker-compose.yml file```
-```docker is a container engine and docker-compose pilote the docker```
-
-##### Difference beetwen container image volume
-- ```TODO```
+Docker is a container engine and docker-compose pilote the docker. Docker-compose pilote the docker with a yml file.
 
 ##### See if there is any images inside registry
 - ```docker images```
