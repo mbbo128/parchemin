@@ -38,3 +38,5 @@ Build will put the image inside docker local registery / You need to execute thi
 ```docker inspect nginx```
 ##### Remove image
 ```docker rmi```
+##### Container list
+```docker ps -a```
