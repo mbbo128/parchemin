@@ -2,7 +2,7 @@
 
 Docker is a container engine and docker-compose pilote the docker. Docker-compose pilote the docker with a yml file.
 
-#### List of commands
+#### List of docker-compose commands
 
 ##### See if there is any images inside registry
 - ```docker images```
@@ -37,11 +37,16 @@ Build will put the image inside docker local registery / You need to execute thi
 ```docker-compose stop nginx```
 ##### See logs "nginx"
 ```docker-compose logs nginx```
+
+#### List of docker commands
+
 ##### Ask API for nginx image
 ```docker inspect nginx```
 ##### Remove image
 ```docker rmi```
 ##### Container list
 ```docker ps -a```
-##### Delete all containre
+##### Delete all container
 ```docker system prune```
+##### Connect to the container
+```docker exec -ti NAME_OR_ID_CONTAINER bash```
