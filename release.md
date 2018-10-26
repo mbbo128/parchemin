@@ -2,6 +2,6 @@
 
 I complete my task and I want to release my ticket how am I suppose to do ?
 
-##### Hotfix
+##### I want to perform a hotfix
 
-##### Release
+##### I want to perform a release
