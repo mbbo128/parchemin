@@ -9,5 +9,3 @@ Create a pull request on github, the target branche must be master
 ##### I want to perform a release
 
 Create a pull request on gitlab, the target branche must be release/X.X.X
-
-If there is no release/X.X.X create one
