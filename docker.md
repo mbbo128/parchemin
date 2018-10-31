@@ -46,7 +46,9 @@ Build will put the image inside docker local registery / You need to execute thi
 ```docker rmi```
 ##### Container list
 ```docker ps -a```
-##### Delete all container
+##### Delete all not use container
 ```docker system prune```
 ##### Connect to the container
 ```docker exec -ti NAME_OR_ID_CONTAINER bash```
+##### Log to registry
+```docker login registry.gitlab.com```
