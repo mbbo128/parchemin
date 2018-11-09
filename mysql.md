@@ -1,4 +1,4 @@
-#### how to Activate general log mysql
+# how to Activate general log mysql
 
 - sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
 - uncomment these two lines :
