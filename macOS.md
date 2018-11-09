@@ -1,4 +1,4 @@
-##### Chrome Shortcut
+# Chrome Shortcut
  
 - cmd + t : open 
 - cmd + shift + t : restore
@@ -8,7 +8,7 @@
 - cmd + alt + u : view source code
 - cmd + shift + delete : clear cache
 
-##### List of software to install
+# List of software to install
 - Spectacle
 - PHPStorm
 - Docker
@@ -16,7 +16,7 @@
 - Tig for git
 - Twgit
 
-##### Terminal Shortcut
+# Terminal Shortcut
 - ctrl + a : go to begin line
 - ctrl + e : got to end line
 - ctrl + c : restart line
