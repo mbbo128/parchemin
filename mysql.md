@@ -7,8 +7,3 @@ general_log_file = /var/log/mysql/mysql.log
 general_log = 1
 ```
 - sudo service mysql restart
-
-##### Monitore general log
-
-- cd /var/log/mysql/
-- tail -f mysql.log
