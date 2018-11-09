@@ -1,11 +1,11 @@
 #### Modules list
-```php -m```
+php -m
 #### Where php is install
-```which php```
+which php
 #### Version php
-```php -v```
+php -v
 #### Path php.ini
-```php --ini```
+- php --ini
 #### Behat test
 - php vendor/bin/behat  PATHTOTEST
 #### Unit test 
