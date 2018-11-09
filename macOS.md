@@ -6,6 +6,7 @@
 - cmd + n : new
 - cmd + shift + n : new private 
 - cmd + alt + u : view source code
+- cmd + shift + delete : clear cache
 
 ##### List of software to install
 - Spectacle
