@@ -1,11 +1,11 @@
-#### Symbolic link
-##### List  
+# Symbolic link
+## List  
 ```ls -la ```
-#### Path
-##### Back to previous path
+# Path
+## Back to previous path
 ```cd -```
-##### Go to home directory
+## Go to home directory
 ```cd ```
-#### File
-##### Locate file
+# File
+## Locate file
 ```find / -name file.txt```
