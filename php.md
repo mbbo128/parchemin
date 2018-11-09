@@ -1,12 +1,12 @@
-#### Modules list
+# Modules list
 php -m
-#### Where php is install
+# Where php is install
 which php
-#### Version php
+# Version php
 php -v
-#### Path php.ini
+# Path php.ini
 php --ini
-#### Behat test
+# Behat test
 php vendor/bin/behat  PATHTOTEST
-#### Unit test 
+# Unit test 
 php vendor/bin/phpunit --filter {tesName}
