@@ -29,13 +29,13 @@ curl -XPOST "localhost:9200/test/_open"
 
 ## Mapping
 
-### all the types
+### All the types
 curl -XGET "localhost:9200/index_name/_mapping?pretty"
 
-### one type
+### One type
 curl -XGET "localhost:9200/index_name/type_name/_mapping?pretty"
 
-### update
+### Update
 
 ```
 curl -XPUT "localhost:9200/index_name/index_type/_mapping" -d '{
@@ -47,3 +47,10 @@ curl -XPUT "localhost:9200/index_name/index_type/_mapping" -d '{
 }'
 ```
 The mapping definition of an existing field cannot be changed
+
+### Update with file
+
+```
+curl -XPUT "localhost:9200/index_name/_settings" -d@path/setting.json
+curl -XPUT "localhost:9200/index_name/index_type/_mapping" -d@path/mapping.json
+```
