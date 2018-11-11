@@ -1,9 +1,7 @@
-# Mode
-
+# Vim
+## Mode
 insert mode : i
-
-# Navigation
-
+## Navigation
 - left : h 
 - right : l 
 - top : k 
