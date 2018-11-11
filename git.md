@@ -1,62 +1,63 @@
-# SSH key
-## Generate SSH key
+# Git
+## SSH key
+### Generate SSH key
 ```ssh-keygen -t rsa -C "your.email@example.com" -b 4096```
-## Add SSH key
+### Add SSH key
 ```
 eval $(ssh-agent -s)
 ssh-add ~/.ssh/id_rsa
 ```
-## Copy the ssh key into your Github/Lab account
+### Copy the ssh key into your Github/Lab account
 ```cat ~/.ssh/id_rsa.pub```
-# Global config 
-## Don't forget to put your real name and email 
+## Global config 
+### Don't forget to put your real name and email 
 ```
 git config --global user.name "Mona Lisa"
 git config --global user.email "your.email@example.com"
 ```
-# Alias
+## Alias
 - git config --global alias.co checkout 
 - git config --global alias.br branch 
 - git config --global alias.ci commit 
 - git config --global alias.st status 
 - git config --global alias.ps push 
-# Branch
-## Delete local branch
+## Branch
+### Delete local branch
 ```git branch -d the_local_branch```
-## List local branch
+### List local branch
 ```git branch```
-## List remote branch
+### List remote branch
 ```git branch -r```
-## Modify name to master
+### Modify name to master
 ```
 git branch -m master
 git push origin master
 ```
-# Stash
-## List 
+## Stash
+### List 
 ```git stash list```
-## Save stash with a name
+### Save stash with a name
 ```git stash save "My Message"```
-## Apply and Drop first stash
+### Apply and Drop first stash
 ```git stash pop```
-## Apply stash n
+### Apply stash n
 ```git stash apply stash@{n}```
-## See detail stash n
+### See detail stash n
 ```git stash show stash@{n} -p```
-# Gitignore
-## if files are not ignore
+## Gitignore
+### if files are not ignore
 ```
 git rm --cached -r .
 git add .
 ```
-# Commit
-## Change commit message
+## Commit
+### Change commit message
 ```git commit --amend```
-## Undo the last commit (leave the changes available)
+### Undo the last commit (leave the changes available)
 ```git reset HEAD~ --soft```
-## Undo the last commit (remove changes)
+### Undo the last commit (remove changes)
 ```git reset HEAD~ --hard```
-# Rebase master in feature/X
+## Rebase master in feature/X
 - git checkout feature/X
 - git fetch --all
 - git rebase origine/master
@@ -65,29 +66,29 @@ git add .
 - git rebase --continue
 - ------------- Only if there are conflits -------------
 - git push -f origin feature/X
-# Remove local untracked files 
-## Show what will be deleted
+## Remove local untracked files 
+### Show what will be deleted
 ```git clean -n```
-## Delete directory
+### Delete directory
 ```git clean -fd```
-## Delete file
+### Delete file
 ```git clean -f```
-# Squash Commit
-## See log
+## Squash Commit
+### See log
 ```git log```
 - Commit 1
 - Commit 2
 - Commit 3
 - Master Tag (choose this hash)
-## Rebase
+### Rebase
 ```git rebase -i HASH```
 - pick commit 1
 - s commit 2
 - s commit 3
 - Save and leave :x
-## Finish
+### Finish
 git push -f origin feature/X
-## Edit squash
+### Edit squash
 ```git rebase --edit-todo```
-## Cancel squash
+### Cancel squash
 git rebase --abort
