@@ -1,10 +1,12 @@
-# Install pecl
+# Install xDebug on Mac OS
+
+## Install pecl
 - https://jason.pureconcepts.net/2012/10/install-pear-pecl-mac-os-x/
 
-# Install Xdebug On Mac
+## Install Xdebug On Mac
 ```pecl install xdebug```
 
-# Configure your php.ini
+## Configure your php.ini
 
 vim /usr/local/etc/php/X.X/php.ini
 ```
@@ -17,13 +19,13 @@ xdebug.remote_handler="dbgp"
 xdebug.remote_log="/Users/m.boissa/Log/xdebug.log"
 ```
 
-# Configure your PHPStorm
+## Configure your PHPStorm
 
-# Preferences -> Languages and Frameworks -> PHP -> Debug
+## Preferences -> Languages and Frameworks -> PHP -> Debug
 
 Set Xdebug port to 9002
 
-# Preferences -> Languages and Frameworks -> PHP -> Servers
+## Preferences -> Languages and Frameworks -> PHP -> Servers
 
 Add a server :
 
@@ -31,7 +33,7 @@ name : 127.0.0.1
 host : 127.0.0.1
 port : 8000
 
-# Run -> Edit Configurations -> PHP Built-in Web Server
+## Run -> Edit Configurations -> PHP Built-in Web Server
 
 Host : http://localhost
 Port: 8000
