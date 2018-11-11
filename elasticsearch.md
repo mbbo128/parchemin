@@ -15,3 +15,14 @@ http://teknosrc.com/chrome-elasticsearch-sense-ui-plugin-not-working-solved-solu
 
 ### Access installed plugin head
 http://localhost:9200/_plugin/head/
+
+## Indexe
+
+### Create test indexe
+curl -XPUT "localhost:9200/test" 
+
+### Close indexe
+curl -XPOST "localhost:9200/test/_close"
+
+### Open indexe
+curl -XPOST "localhost:9200/test/_open"
