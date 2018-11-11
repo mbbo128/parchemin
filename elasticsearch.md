@@ -29,5 +29,8 @@ curl -XPOST "localhost:9200/test/_open"
 
 ## Mapping
 
-### See 
+### all the types
+curl -XGET "localhost:9200/index_name/_mapping?pretty"
+
+### one type
 curl -XGET "localhost:9200/index_name/type_name/_mapping?pretty"
