@@ -9,3 +9,6 @@ http://teknosrc.com/chrome-elasticsearch-sense-ui-plugin-not-working-solved-solu
 2 options
 - http://localhost:9200/_nodes/plugins'?pretty
 - curl -XGET "localhost:9200/_nodes/plugins'?pretty"
+
+### Install plugin head
+- https://github.com/mobz/elasticsearch-head
