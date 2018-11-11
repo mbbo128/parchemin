@@ -34,3 +34,16 @@ curl -XGET "localhost:9200/index_name/_mapping?pretty"
 
 ### one type
 curl -XGET "localhost:9200/index_name/type_name/_mapping?pretty"
+
+### update
+
+```
+curl -XPUT "localhost:9200/index_name/index_type/_mapping" -d {
+  "properties" : {
+    "new_field_name": {
+      "type": "integer"
+    }
+  }
+}
+```
+The mapping definition of an existing field cannot be changed
