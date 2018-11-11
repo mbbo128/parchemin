@@ -26,3 +26,8 @@ curl -XPOST "localhost:9200/test/_close"
 
 ### Open indexe
 curl -XPOST "localhost:9200/test/_open"
+
+## Mapping
+
+### See 
+curl -XGET "localhost:9200/index_name/type_name/_mapping?pretty"
