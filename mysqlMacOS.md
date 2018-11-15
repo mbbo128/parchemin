@@ -1,4 +1,8 @@
 # MySQL
+
+## Start service
+/usr/local/bin/mysql.server restart
+
 ## how to Activate general log mysql
 
 - sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
