@@ -22,3 +22,6 @@
 - ctrl + a : go to begin line
 - ctrl + e : got to end line
 - ctrl + c : restart line
+
+## brew
+- brew list
