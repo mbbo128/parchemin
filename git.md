@@ -99,6 +99,9 @@ touch ~/.bash_aliases
 ssh-mon-aliase="ssh blablabla@IP"
 ```
 ### edit aliases
-```
+
 vim ~/.zshrc
+
+```
+~/.bash_aliases
 ```
