@@ -33,9 +33,9 @@ git config --global user.email "your.email@example.com"
 git branch -m master
 git push origin master
 ```
-### get all branches
+### Get all branches
 git fetch --all
-### get all branches deletes branch who are not in the server
+### Get all branches deletes branch who are not in the server
 git fetch --prune
 ## Stash
 ### List 
