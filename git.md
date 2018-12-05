@@ -40,6 +40,8 @@ git fetch --prune
 ## Stash
 ### List 
 ```git stash list```
+### Stash with untracked
+```git stash --include-untracked```
 ### Save stash with a name
 ```git stash save "My Message"```
 ### Apply and Drop first stash
