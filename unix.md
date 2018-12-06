@@ -11,6 +11,6 @@
 ### Locate file
 ```find / -name file.txt```
 ### Copy
-```cp fileToCopy newNameFile```
-```cp /directory/file.txt /directory/file.txt```
-```cp /home/name/file.txt /home/myPath```
+```cp fileToCopy newNameFile
+cp /directory/file.txt /directory/file.txt
+cp /home/name/file.txt /home/myPath```
