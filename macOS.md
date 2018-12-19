@@ -1,7 +1,9 @@
 # MacOS
 
-## Chrome Shortcut
- 
+## Mac Shortcup
+- cmd + shift + 4 : screenshot 
+
+## Chrome Shortcut 
 - cmd + t : open 
 - cmd + shift + t : restore
 - cmd + w : close 
