@@ -19,3 +19,4 @@ cp fileToCopy newNameFile
 cp /directory/file.txt /directory/file.txt
 cp /home/name/file.txt /home/myPath
 ```
+### Remove
