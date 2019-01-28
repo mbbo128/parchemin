@@ -24,6 +24,8 @@ docker-compose stop
 docker-compose down
 ### Show running containers
 docker-compose ps
+### Show all containers
+docker-compose ps -a
 ### Build image
 docker-compose build
 
