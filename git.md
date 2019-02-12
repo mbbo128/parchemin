@@ -113,3 +113,7 @@ vim ~/.zshrc
 ```
 source ~/.zshrc
 ```
+## Testing
+Work with different branch, got to branch A and merge branch B no -ff and don't work on branch A
+Work locally on your branch and then make a MR on master and mer ge both branch only if you want to test it
+
