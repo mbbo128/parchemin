@@ -4,3 +4,7 @@
 ```
 composer clearcache
 ```
+## Check validity
+```
+composer valide
+```
