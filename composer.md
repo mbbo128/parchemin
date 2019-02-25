@@ -2,5 +2,5 @@
 
 ## Clear cache
 ```
-composer clear cache
+composer clearcache
 ```
