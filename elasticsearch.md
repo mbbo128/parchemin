@@ -27,6 +27,9 @@ curl -XPOST "localhost:9200/test/_close"
 ### Open indexe
 curl -XPOST "localhost:9200/test/_open"
 
+### Delete all indexes
+curl -XDELETE 'localhost:9200/*'
+
 ## Mapping
 
 ### All the types
