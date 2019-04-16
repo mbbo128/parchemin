@@ -30,6 +30,9 @@ curl -XPOST "localhost:9200/test/_open"
 ### Delete all indexes
 curl -XDELETE 'localhost:9200/*'
 
+### Delete all blabla indexes
+curl -XDELETE 'localhost:9200/blabla*'
+
 ## Mapping
 
 ### All the types
