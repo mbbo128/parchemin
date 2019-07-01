@@ -37,6 +37,7 @@ curl -XDELETE 'localhost:9200/*'
 curl -XDELETE 'localhost:9200/blabla*'
 
 ### Get blablabla document
+curl -XGET 'localhost:9200/test/blabla/1?pretty'
 
 ## Mapping
 
