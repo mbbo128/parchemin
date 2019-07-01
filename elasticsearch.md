@@ -21,6 +21,9 @@ http://localhost:9200/_plugin/head/
 ### Create test indexe
 curl -XPUT "localhost:9200/test" 
 
+### Create document inside test indexe
+curl -XPUT 'localhost:9200/test/blabla/1' -d '{ "name": "Elasticsearch Essentials", "author": "Me", "tags": ["test", "blabla"]"}'
+
 ### Close indexe
 curl -XPOST "localhost:9200/test/_close"
 
@@ -32,6 +35,8 @@ curl -XDELETE 'localhost:9200/*'
 
 ### Delete all blabla indexes
 curl -XDELETE 'localhost:9200/blabla*'
+
+### Get blablabla document
 
 ## Mapping
 
