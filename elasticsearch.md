@@ -22,7 +22,7 @@ http://localhost:9200/_plugin/head/
 curl -XPUT "localhost:9200/test" 
 
 ### Create document inside test indexe
-curl -XPUT 'localhost:9200/test/blabla/1' -d '{ "name": "Elasticsearch Essentials", "author": "Me", "tags": ["test", "blabla"]"}'
+curl -XPUT 'localhost:9200/test/blabla/1' -d '{ "name": "blablabla", "author": "me"}'
 
 ### Close indexe
 curl -XPOST "localhost:9200/test/_close"
