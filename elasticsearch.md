@@ -43,6 +43,9 @@ curl -XDELETE 'localhost:9200/blabla*'
 ### Get blablabla document
 curl -XGET 'localhost:9200/test/blabla/1?pretty'
 
+### Get part of a document
+curl -XGET 'localhost:9200/test/blabla/1?pretty=1'_source=name,author
+
 ## Mapping
 
 ### All the types
