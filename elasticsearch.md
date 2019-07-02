@@ -24,6 +24,10 @@ curl -XPUT "localhost:9200/test"
 ### Create document inside test indexe
 curl -XPUT 'localhost:9200/test/blabla/1' -d '{ "name": "blablabla", "author": "me"}'
 
+### Update document
+curl -XPUT 'localhost:9200/test/blabla/1' -d '{ "name": "blablabla", "author": "me", "tags": ["tagOne", "tagTwo", "tagThree"], "content": "PUT request"}'
+
+
 ### Close indexe
 curl -XPOST "localhost:9200/test/_close"
 
