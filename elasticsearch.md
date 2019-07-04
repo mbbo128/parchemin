@@ -75,3 +75,5 @@ The mapping definition of an existing field cannot be changed
 curl -XPUT "localhost:9200/index_name/_settings" -d@path/setting.json
 curl -XPUT "localhost:9200/index_name/index_type/_mapping" -d@path/mapping.json
 ```
+
+## Query 
