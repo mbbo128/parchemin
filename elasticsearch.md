@@ -42,7 +42,7 @@ curl -XDELETE 'localhost:9200/*'
 ### Delete all blabla indexes
 curl -XDELETE 'localhost:9200/blabla*'
 
-### Get blablabla document
+### Get blabla document
 curl -XGET 'localhost:9200/test/blabla/1?pretty'
 
 ### Get part of a document
