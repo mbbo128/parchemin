@@ -27,6 +27,8 @@ curl -XPUT 'localhost:9200/test/blabla/1' -d '{ "name": "blablabla", "author": "
 ### Update document
 curl -XPUT 'localhost:9200/test/blabla/1' -d '{ "name": "blablabla", "author": "me", "tags": ["tagOne", "tagTwo", "tagThree"], "content": "PUT request"}'
 
+### Test a analyzer
+curl -XGET 'localhost:9200/test/_analyze?analyzer=whitespace&text=Once%20Upon%20a%20Time%20in%20America&pretty'
 
 ### Close indexe
 curl -XPOST "localhost:9200/test/_close"
