@@ -81,15 +81,11 @@ curl -XPUT "localhost:9200/index_name/index_type/_mapping" -d@path/mapping.json
 ### Match All
 ```
 curl -XGET 'localhost:9200/test/_search?pretty' -d '{"query": { "match_all": {}}}'
-```
-```
 http://localhost:9200/test/_search?pretty
 ```
 
 ### Match 
 ```
 curl -XGET 'localhost:9200/test/_search?pretty' -d '{"query": {match: {"author": "me"}}}'
-```
-```
 http://localhost:9200/test/_search?pretty&q=author:me
 ```
