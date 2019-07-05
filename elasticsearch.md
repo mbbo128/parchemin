@@ -77,19 +77,18 @@ curl -XPUT "localhost:9200/index_name/index_type/_mapping" -d@path/mapping.json
 ```
 
 ## Query 
-
 ### Match All
 ```
 curl -XGET 'localhost:9200/test/_search?pretty' -d '{"query": { "match_all": {}}}'
 http://localhost:9200/test/_search?pretty
-```
 
+```
 ### Match 
 ```
 curl -XGET 'localhost:9200/test/_search?pretty' -d '{"query": {"match": {"author": "me"}}}'
 http://localhost:9200/test/_search?pretty&q=author:me
-```
 
+```
 ### Multi match
 ```
 curl -XGET 'localhost:9200/test/_search?pretty' -d '{
@@ -97,6 +96,18 @@ curl -XGET 'localhost:9200/test/_search?pretty' -d '{
                 "multi_match": {
                         "query": "PUT request",
                         "fields" : ["content", "author"]
+                }
+        }
+}'
+```
+
+### Query String
+```
+curl -XGET 'localhost:9200/test/_search?pretty' -d '{
+        "query": {
+                "query_string":{
+                        "default_field": "content",
+                        "query": "content:PUT^2 +content:request -content:lalala"
                 }
         }
 }'
