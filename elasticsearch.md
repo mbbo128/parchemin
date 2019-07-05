@@ -136,3 +136,9 @@ curl -X GET 'localhost:9200/test/_search?pretty' -d '{
         }
 }'
 ```
+
+### Range
+Before testing range query we have to update test index and add a field price with a value of 150
+```
+curl -XPUT 'localhost:9200/test/blabla/1' -d '{ "name": "blablabla", "author": "me", "tags": ["tagOne", "tagTwo", "tagThree"], "content": "PUT request", "price": 150}'
+```
