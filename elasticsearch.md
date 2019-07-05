@@ -86,6 +86,18 @@ http://localhost:9200/test/_search?pretty
 
 ### Match 
 ```
-curl -XGET 'localhost:9200/test/_search?pretty' -d '{"query": {match: {"author": "me"}}}'
+curl -XGET 'localhost:9200/test/_search?pretty' -d '{"query": {"match": {"author": "me"}}}'
 http://localhost:9200/test/_search?pretty&q=author:me
+```
+
+### Multi match
+```
+curl -XGET 'localhost:9200/test/_search?pretty' -d '{
+        "query": {
+                "multi_match": {
+                        "query": "PUT request",
+                        "fields" : ["content", "author"]
+                }
+        }
+}'
 ```
