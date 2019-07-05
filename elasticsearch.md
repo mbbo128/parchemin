@@ -85,3 +85,5 @@ curl -XGET 'localhost:9200/test/_search?pretty' -d '{"query": { "match_all": {}}
 ```
 http://localhost:9200/test/_search?pretty
 ```
+
+### Match 
