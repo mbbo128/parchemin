@@ -112,7 +112,7 @@ curl -XGET 'localhost:9200/test/_search?pretty' -d '{
 }'
 ```
 
-### term
+### Term
 Return the result after analysis, so to get a result, we have to write put in lower case
 ```
 curl -XGET "localhost:9200/test/_search?pretty" -d '{
