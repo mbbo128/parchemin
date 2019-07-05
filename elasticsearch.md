@@ -87,7 +87,6 @@ http://localhost:9200/test/_search?pretty
 ```
 curl -XGET 'localhost:9200/test/_search?pretty' -d '{"query": {"match": {"author": "me"}}}'
 http://localhost:9200/test/_search?pretty&q=author:me
-
 ```
 ### Multi match
 ```
