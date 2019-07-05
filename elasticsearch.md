@@ -77,3 +77,6 @@ curl -XPUT "localhost:9200/index_name/index_type/_mapping" -d@path/mapping.json
 ```
 
 ## Query 
+
+### Match All
+curl -XGET 'localhost:9200/test/_search?pretty' -d '{"query": { "match_all": {}}}'
