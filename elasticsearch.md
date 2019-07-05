@@ -107,7 +107,7 @@ curl -XGET 'localhost:9200/test/_search?pretty' -d '{
         "query": {
                 "query_string":{
                         "default_field": "content",
-                        "query": "content:PUT^2 +content:request -content:lalala"
+                        "query": "content:PUT^2 +content:request -author:lalala"
                 }
         }
 }'
