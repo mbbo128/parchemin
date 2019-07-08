@@ -144,4 +144,14 @@ curl -XPUT 'localhost:9200/test/blabla/1' -d '{ "name": "blablabla", "author": "
 ```
 Then we can do the request
 ```
+curl -XGET 'localhost:9200/_search?pretty' -d '{
+        "query": {
+                "range": {
+                        "price" : {
+                                "gte": 100,
+                                "lte": 200
+                        }
+                }
+        }
+}'
 ```
