@@ -142,3 +142,6 @@ Before testing range query we have to update test index and add a field price wi
 ```
 curl -XPUT 'localhost:9200/test/blabla/1' -d '{ "name": "blablabla", "author": "me", "tags": ["tagOne", "tagTwo", "tagThree"], "content": "PUT request", "price": 150}'
 ```
+Then we can do the request
+```
+```
