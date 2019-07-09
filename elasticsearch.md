@@ -81,7 +81,6 @@ curl -XPUT "localhost:9200/index_name/index_type/_mapping" -d@path/mapping.json
 ```
 curl -XGET 'localhost:9200/test/_search?pretty' -d '{"query": { "match_all": {}}}'
 http://localhost:9200/test/_search?pretty
-
 ```
 ### Match 
 ```
@@ -99,7 +98,6 @@ curl -XGET 'localhost:9200/test/_search?pretty' -d '{
         }
 }'
 ```
-
 ### Query String
 ```
 curl -XGET 'localhost:9200/test/_search?pretty' -d '{
@@ -111,7 +109,6 @@ curl -XGET 'localhost:9200/test/_search?pretty' -d '{
         }
 }'
 ```
-
 ### Term
 Return the result after analysis, so to get a result, we have to write put in lower case
 ```
@@ -136,7 +133,6 @@ curl -X GET 'localhost:9200/test/_search?pretty' -d '{
         }
 }'
 ```
-
 ### Range
 Before testing range query we have to update test index and add a field price with a value of 150
 ```
@@ -160,7 +156,6 @@ curl -XGET 'localhost:9200/_search?pretty' -d '{
         }
 }'
 ```
-
 ### Exist
 ```
 curl -XGET 'localhost:9200/test/_search?pretty' -d '{
@@ -176,7 +171,6 @@ curl -XGET 'localhost:9200/test/_search?pretty' -d '{
         }
 }'
 ```
-
 ### Bool
 ```
 curl -XGET 'localhost:9200/test/_search?pretty' -d '{
@@ -202,7 +196,6 @@ curl -XGET 'localhost:9200/test/_search?pretty' -d '{
         }
 }'
 ```
-
 ### Not
 ```
 curl -XGET 'localhost:9200/test/_search?pretty' -d '{
