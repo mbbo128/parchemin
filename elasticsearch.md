@@ -157,7 +157,6 @@ curl -XGET 'localhost:9200/_search?pretty' -d '{
 ```
 
 ### Exist
-
 ```
 curl -XGET 'localhost:9200/test/_search?pretty' -d '{
         "query": {
@@ -174,9 +173,27 @@ curl -XGET 'localhost:9200/test/_search?pretty' -d '{
 ```
 
 ### Bool
-
-#### Must
-
 ```
-
+curl -XGET 'localhost:9200/test/_search?pretty' -d '{
+        "query": {
+                "bool": {
+                        "must": {
+                                "term" : { "name": "blablabla" }
+                        },
+                        "filter": {
+                                "term" : { "author" : "me" }
+                        },
+                        "must_not": {
+                                "range" : {
+                                        "price": { "from" : 0, "to" : 100 }
+                                }
+                        },
+                        "should" : [
+                                {
+                                        "term" : { "tag" : "tagOne" }
+                                }
+                        ]
+                }
+        }
+}'
 ```
