@@ -206,17 +206,17 @@ curl -XGET 'localhost:9200/test/_search?pretty' -d '{
 ### Not
 ```
 curl -XGET 'localhost:9200/test/_search?pretty' -d '{
-        "filter": {
-                "not": {
-                        filter: {
-                                "range": {
-                                        "price": {
-                                                "from": 0,
-                                                "to": 100
-                                        }
-                                }
-                        }
-                }
+  "filter": {
+    "not": {
+      filter: {
+        "range": {
+          "price": {
+            "from": 0,
+            "to": 100
+          }
         }
+      }
+    }
+  }
 }'
 ```
