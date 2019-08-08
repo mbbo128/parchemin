@@ -1,7 +1,8 @@
 # xDebug with Vagrant
 
 ## Configuration xdebug on vagrant
-I assume xdebug is already install on the vagrant machine
+
+### I assume xdebug is already install on the vagrant machine
 
 cat  /etc/php.d/xdebug.ini 
 
@@ -13,5 +14,9 @@ xdebug.remote_host=11.11.11.11
 xdebug.remote_connect_back = on
 xdebug.idekey = "XDEBUG"
 ```
+
+### Restart apache
+
+/etc/init.d/apache2 restart
 
 ## 2
