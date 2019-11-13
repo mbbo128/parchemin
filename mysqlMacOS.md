@@ -12,3 +12,8 @@ general_log_file = /var/log/mysql/mysql.log
 general_log = 1
 ```
 - sudo service mysql restart
+
+## better displaying a query in terminal
+```
+SELECT * FROM user WHERE id = 1\G
+```
