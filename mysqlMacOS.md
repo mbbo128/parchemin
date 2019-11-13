@@ -3,7 +3,7 @@
 ## Start service
 /usr/local/bin/mysql.server restart
 
-## how to Activate general log mysql
+## How to Activate general log mysql
 
 - sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
 - uncomment these two lines :
@@ -13,7 +13,7 @@ general_log = 1
 ```
 - sudo service mysql restart
 
-## better displaying a query in terminal
+## Better displaying a query in terminal
 ```
 SELECT * FROM user WHERE id = 1\G
 ```
