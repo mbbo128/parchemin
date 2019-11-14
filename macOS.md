@@ -3,15 +3,6 @@
 ## Mac Shortcup
 - cmd + shift + 4 : screenshot 
 
-## Chrome Shortcut 
-- cmd + t : open 
-- cmd + shift + t : restore
-- cmd + w : close 
-- cmd + n : new
-- cmd + shift + n : new private 
-- cmd + alt + u : view source code
-- cmd + shift + delete : clear cache
-
 ## List of software to install
 - Spectacle
 - PHPStorm
