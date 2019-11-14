@@ -21,3 +21,7 @@ SELECT * FROM user WHERE id = 1\G
 ```
 show tables;
 ```
+## See Database
+```
+show databases;
+```
