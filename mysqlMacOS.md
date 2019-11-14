@@ -17,3 +17,7 @@ general_log = 1
 ```
 SELECT * FROM user WHERE id = 1\G
 ```
+## See Table
+```
+show tables;
+```
