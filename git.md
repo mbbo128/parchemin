@@ -98,18 +98,3 @@ git push -f origin feature/X
 ```git rebase --edit-todo```
 ### Cancel squash
 git rebase --abort
-## Aliases
-### add aliases
-touch ~/.bash_aliases
-```
-ssh-mon-aliase="ssh blablabla@IP"
-```
-### edit aliases
-vim ~/.zshrc
-```
-~/.bash_aliases
-```
-### reload
-```
-source ~/.zshrc
-```
