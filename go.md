@@ -1,5 +1,6 @@
 # GO
 ## Install
+### Download 
 Download the archive and extract it into /usr/local, creating a Go tree in /usr/local/go. 
 For example:
 ```
