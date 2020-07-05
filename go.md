@@ -12,9 +12,16 @@ Just add the following lines to ~/.bashrc
 export GOPATH=$HOME/go
 export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 ```
-
 ## Environment variable 
+```
 go env
-
+```
 ## Running 
+```
 go run
+```
+or
+```
+go build inigo.go
+./inigo
+```
