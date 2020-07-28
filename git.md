@@ -98,3 +98,6 @@ git push -f origin feature/X
 ```git rebase --edit-todo```
 ### Cancel squash
 git rebase --abort
+## Patch
+```git diff --cached > /tmp/my.patch```
+```git apply /tmp/my.patch```
