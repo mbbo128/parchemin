@@ -5,7 +5,12 @@
 ## Behat test
 ```php vendor/bin/behat  PATHTOTEST```
 ## Unit test 
+### Test name
 ```php vendor/bin/phpunit --filter {tesName}```
-```php vendor/bin/phpunit --filter {src/.../file.php} ``` 
+### File Name
+```php vendor/bin/phpunit --filter {src/.../file.php} ```
+### Stop on failure
+```php vendor/bin/phpunit --stop-on-failure```
+
 ## CS Fixer
 ```php vendor/bin/php-cs-fixer```
