@@ -72,6 +72,15 @@ git add .
 - git rebase --continue
 - ------------- Only if there are conflits -------------
 - git push -f origin feature/X
+## Cherry pick in feature/X from last commit in feature/Y
+- git checkout feature/X
+- git fetch --all
+- git cherry-pick <commit-number-feature/Y>
+- ------------- Only if there are conflits -------------
+- fix conflits in PHPStorm (Local Changes -> Right Click -> Git -> Resolve Conflit)
+- git cherry-pick --continue
+- ------------- Only if there are conflits -------------
+- git push origin feature/X
 ## Remove local untracked files 
 ### Show what will be deleted
 ```git clean -n```
