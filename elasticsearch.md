@@ -173,42 +173,42 @@ curl -XGET 'localhost:9200/test/_search?pretty' -d '{
 ### Bool
 ```
 curl -XGET 'localhost:9200/test/_search?pretty' -d '{
-        "query": {
-                "bool": {
-                        "must": {
-                                "term" : { "name": "blablabla" }
-                        },
-                        "filter": {
-                                "term" : { "author" : "me" }
-                        },
-                        "must_not": {
-                                "range" : {
-                                        "price": { "from" : 0, "to" : 100 }
-                                }
-                        },
-                        "should" : [
-                                {
-                                        "term" : { "tag" : "tagOne" }
-                                }
-                        ]
+    "query": {
+        "bool": {
+            "must": {
+                "term" : { "name": "blablabla" }
+            },
+            "filter": {
+                "term" : { "author" : "me" }
+            },
+            "must_not": {
+                "range" : {
+                    "price": { "from" : 0, "to" : 100 }
                 }
+            },
+            "should" : [
+                {
+                    "term" : { "tag" : "tagOne" }
+                }
+            ]
         }
+    }
 }'
 ```
 ### Not
 ```
 curl -XGET 'localhost:9200/test/_search?pretty' -d '{
-  "filter": {
-    "not": {
-      filter: {
-        "range": {
-          "price": {
-            "from": 0,
-            "to": 100
-          }
+    "filter": {
+        "not": {
+            filter: {
+                "range": {
+                    "price": {
+                        "from": 0,
+                        "to": 100
+                    }
+                }
+            }
         }
-      }
     }
-  }
 }'
 ```
