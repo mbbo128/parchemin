@@ -159,16 +159,15 @@ curl -XGET 'localhost:9200/_search?pretty' -d '{
 ### Exist
 ```
 curl -XGET 'localhost:9200/test/_search?pretty' -d '{
-        "query": {
-                "constant_score" : {
-                        "filter":{
-                                "exists":{
-                                        "field": "tags"
-                                        }
-                                }
-                        }
+    "query": {
+        "constant_score" : {
+            "filter":{
+                "exists":{
+                    "field": "tags"
                 }
+            }
         }
+    }
 }'
 ```
 ### Bool
