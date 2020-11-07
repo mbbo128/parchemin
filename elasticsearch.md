@@ -60,11 +60,11 @@ curl -XGET "localhost:9200/index_name/type_name/_mapping?pretty"
 
 ```
 curl -XPUT "localhost:9200/index_name/index_type/_mapping" -d '{
-  "properties" : {
-    "new_field_name": {
-      "type": "integer"
+    "properties" : {
+        "new_field_name": {
+            "type": "integer"
+        }
     }
-  }
 }'
 ```
 The mapping definition of an existing field cannot be changed
