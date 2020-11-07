@@ -123,14 +123,14 @@ curl -XGET "localhost:9200/test/_search?pretty" -d '{
 
 ```
 curl -X GET 'localhost:9200/test/_search?pretty' -d '{
-        "query": {
-                "terms": {
-                        "content" :[
-                                "put",
-                                "request"
-                        ]
-                }
+    "query": {
+        "terms": {
+            "content" :[
+                "put",
+                "request"
+            ]
         }
+    }
 }'
 ```
 ### Range
