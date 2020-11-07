@@ -101,12 +101,12 @@ curl -XGET 'localhost:9200/test/_search?pretty' -d '{
 ### Query String
 ```
 curl -XGET 'localhost:9200/test/_search?pretty' -d '{
-        "query": {
-                "query_string":{
-                        "default_field": "content",
-                        "query": "content:PUT^2 +content:request -author:lalala"
-                }
+    "query": {
+        "query_string":{
+            "default_field": "content",
+            "query": "content:PUT^2 +content:request -author:lalala"
         }
+    }
 }'
 ```
 ### Term
