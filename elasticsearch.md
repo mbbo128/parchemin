@@ -140,7 +140,8 @@ curl -XPUT 'localhost:9200/test/blabla/1' -d '{
     "name": "blablabla", 
     "author": "me", 
     "tags": ["tagOne", "tagTwo", "tagThree"],
-    "content": "PUT request", "price": 150}'
+    "content": "PUT request", "price": 150
+    }'
 }
 ```
 Then we can do the request
