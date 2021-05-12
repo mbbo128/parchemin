@@ -124,3 +124,5 @@ git rebase --abort
 ## Patch
 ```git diff --cached > /tmp/my.patch```
 ```git apply /tmp/my.patch```
+## Tag
+``` HERE HOW TO PUSH TAG  ```
