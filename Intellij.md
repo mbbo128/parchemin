@@ -11,11 +11,11 @@
 - Twig
 ## Shortcut
 - ctrl shift A : inspect code
-- alt shift left : retour arrière
-- alt shift right : retour devant
-- crtl + w : select une zone de plus en plus grande
+- alt shift left : go back
+- alt shift right : go forward
+- crtl + w : select bigger area
 - ctrl + maj + w : inverse
-- ctrl + b : voir les utilisations du mot
-- alt + entrer : mettre argument 1 ligne
-- crtl shift alt j : copier tout la même occurence
-- alt enter inject langage postgres coloration sql refaire alt enter edit postgres sgment close alt f4
+- ctrl + b : see how an occurence is use
+- alt + entrer : put argument in one line
+- crtl shift alt j : copy all same occurence
+- alt enter inject langage postgres coloration sql reselect alt enter edit postgres segment close alt f4
