@@ -19,3 +19,5 @@
 - alt + entrer : put argument in one line
 - crtl shift alt j : copy all same occurence
 - alt enter inject langage postgres coloration sql reselect alt enter edit postgres segment close alt f4
+## Custom shortcut
+- ctl alt l : go fmt
