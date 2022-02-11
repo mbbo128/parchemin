@@ -1,4 +1,14 @@
 # Intellij
+## Plugins
+- Gerrit
+- GitToolBox
+- Go
+- GoLinter
+- GoMock
+- Keypromoter
+- Php
+- Phpannotations
+- Twig
 ## Shortcut
 - ctrl shift A : inspect code
 - alt shift left : retour arrière
@@ -9,4 +19,3 @@
 - alt + entrer : mettre argument 1 ligne
 - crtl shift alt j : copier tout la même occurence
 - alt enter inject langage postgres coloration sql refaire alt enter edit postgres sgment close alt f4
-##
